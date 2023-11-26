@@ -4,7 +4,7 @@ let clientData;
 
 async function getClientData() {
     try {
-        const response = await axios.get('http://localhost:3000/clientData/2');
+        const response = await axios.get('https://candid-piroshki-49edd7.netlify.app/server/db.json/clientData/');
 
         clientData = response.data;
 
