@@ -1,0 +1,22 @@
+{
+  "clientData": [
+    {
+      "name": "psy",
+      "clientNumber": 1,
+      "address": "수원시 팔당구",
+      "id": 1
+    },
+    {
+      "name": "kim",
+      "clientNumber": 2,
+      "address": "성남시 분당구",
+      "id": 2
+    },
+    {
+      "name": "lee",
+      "clientNumber": 3,
+      "address": "서울시 강남구",
+      "id": 3
+    }
+  ]
+}
