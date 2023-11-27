@@ -1,11 +1,11 @@
 'use strict';
-import axios from 'axios';
+// import axios from 'axios';
 
 let clientData;
 
 async function getClientData() {
     try {
-        const response = await axios.get('https://candid-piroshki-49edd7.netlify.app/server/db.json/clientData/');
+        const response = await axios.get('https://hostingtest-7ad34-default-rtdb.asia-southeast1.firebasedatabase.app/clientData/');
 
         clientData = response.data;
 
