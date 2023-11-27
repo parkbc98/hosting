@@ -5,7 +5,7 @@ let clientData;
 
 async function getClientData() {
     try {
-        const response = await axios.get('https://hostingtest-7ad34-default-rtdb.asia-southeast1.firebasedatabase.app/clientData/');
+        const response = await axios.get('https://hostingtest-7ad34-default-rtdb.asia-southeast1.firebasedatabase.app/clientData.json/');
 
         clientData = response.data;
 
